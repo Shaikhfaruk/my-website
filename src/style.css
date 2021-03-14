@@ -19,12 +19,11 @@ body {
   background: black;
   bottom: 0;
 }
-
 .main {
   position: relative;
-  top: 70%;
-  left: 90%;
-  transform: translate(-40%, -60%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   cursor: pointer;
   padding: 13px;
@@ -66,4 +65,9 @@ svg circle {
 }
 .icon:hover svg circle {
   stroke-dasharray: 320;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
 }
