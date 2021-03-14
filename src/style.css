@@ -61,7 +61,7 @@ body {
 }
 svg circle {
   stroke-dasharray: 9;
-  transition: all 5.8s;
+  transition: all 2.8s;
 }
 .icon:hover svg circle {
   stroke-dasharray: 320;
